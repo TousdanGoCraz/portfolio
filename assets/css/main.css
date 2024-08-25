@@ -114,9 +114,9 @@ input, select, textarea {
 
 /* Type */
 
-	body, input, select, textarea {
-		color: rgba(255, 255, 255, 0.55);
-		font-family: Arial, Helvetica, sans-serif;
+	body, input, select, textarea,label {
+		color: #333333 ;
+		font-family: 'Roboto', Helvetica, sans-serif;
 		font-size: 16.5pt;
 		font-weight: normal;
 		line-height: 1.75;
@@ -175,7 +175,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
+		color: #4A4A4A;
 		line-height: 1.5;
 		margin: 0 0 0.5em 0;
 	}
@@ -3105,6 +3105,7 @@ input, select, textarea {
 
 				.spotlights > section > .content {
 					width: 100%;
+					background-image:linear-gradient(180deg, rgba(254,216,167,1) 30%, rgba(194,222,226,1) 75%);;
 				}
 
 				.spotlights > section.inactive > .content > .inner,
@@ -3239,15 +3240,15 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: rgb(101,102,104);
+			background-color: rgb(254,216,167);
 		}
 
 		.wrapper.style1-alt {
-			background-color: #493382;
+			background-color: rgb(155,125,97);
 		}
 
 		.wrapper.style2 {
-			background-color: #5052b5;
+			background-color: rgb(194,222,226);
 		}
 
 		.wrapper.style2-alt {
@@ -3255,7 +3256,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background-color: #b74e91;
+			background-color: rgb(223,195,155);
 		}
 
 		.wrapper.style3-alt {
@@ -3523,7 +3524,7 @@ input, select, textarea {
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: rgb(178,179,183);
+		background: rgb(218,163,143);
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3736,7 +3737,7 @@ input, select, textarea {
 			-ms-transition: color 0.2s ease;
 			transition: color 0.2s ease;
 			border: 0;
-			color: rgb(3,4,6);
+			color: #333333;
 			display: block;
 			font-size: 0.6em;
 			font-weight: bold;
@@ -3760,14 +3761,14 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:before {
-				background: rgb(95,123,168);
+				background: rgb(145,150,130);
 			}
 
 			#sidebar nav a:after {
 				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
 				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
 				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(187deg, rgba(2,0,36,1) 0%, rgba(31,40,55,1) 0%, rgba(0,212,255,1) 25%);
+				background-image: linear-gradient(to right,rgb(254,216,167,0.5),#eac69a);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -3873,7 +3874,7 @@ input, select, textarea {
 
 	#intro {
 		background-attachment: fixed;
-		background-color: rgb(31,40,55);
+		background-color: #919682;
 		background-image: url("images/intro.svg");
 		background-position: top right;
 		background-repeat: no-repeat;

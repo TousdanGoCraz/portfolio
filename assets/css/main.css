@@ -2294,7 +2294,7 @@ input, select, textarea {
 		}
 
 	label {
-		color: #ffffff;
+		color: #333333;
 		font-weight: bold;
 		line-height: 1.5;
 		margin: 0 0 0.7em 0;
@@ -2462,22 +2462,22 @@ input, select, textarea {
 	}
 
 	::-webkit-input-placeholder {
-		color: rgba(255, 255, 255, 0.35) !important;
+		color: rgba(33,33 , 33, 0.35) !important;
 		opacity: 1.0;
 	}
 
 	:-moz-placeholder {
-		color: rgba(255, 255, 255, 0.35) !important;
+		color: rgba(33,33 , 33, 0.35) !important;
 		opacity: 1.0;
 	}
 
 	::-moz-placeholder {
-		color: rgba(255, 255, 255, 0.35) !important;
+		color: rgba(33,33 , 33, 0.35) !important;
 		opacity: 1.0;
 	}
 
 	:-ms-input-placeholder {
-		color: rgba(255, 255, 255, 0.35) !important;
+		color: rgba(33,33 , 33, 0.35) !important;
 		opacity: 1.0;
 	}
 
@@ -2810,7 +2810,7 @@ input, select, textarea {
 	}
 
 		ul.icons li {
-			display: inline-block;
+			display: block;
 			padding: 0 0.75em 0 0;
 		}
 
@@ -3008,7 +3008,7 @@ input, select, textarea {
 			border-radius: 0;
 			display: block;
 			position: relative;
-			width: 25em;
+			width: 50em;
 		}
 
 			.spotlights > section > .image img {
@@ -3925,13 +3925,14 @@ input, select, textarea {
 }
 
 .profile-picture{
-	max-width: 20%;
+	max-width: 30%;
 	margin-right: 5%;
 }
 
 .profile-picture img{
-	max-width: 100%; /* Should be the same as width for a perfect circle */
-	border-radius: 50%; /* This makes the image round */
-	object-fit: cover; /* This ensures the image fills the circle without stretching */
-	  
+	max-width: 100%; 
+	border-radius: 4%;
+	object-fit: cover;
+	box-shadow: 5px 5px 15px rgb(218,163,143),-5px -5px 15px rgb(218,163,143); 
+	
 }

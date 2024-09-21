@@ -188,3 +188,18 @@
 			});
 
 })(jQuery);
+
+
+//Switch Names when hovering on name
+
+document.querySelector('#myName').addEventListener('mousemove',swtichNames)
+
+function swtichNames(){
+	document.querySelector('#myName').innerText = 'Arvin'	
+}
+
+document.querySelector('#myName').addEventListener('mouseleave',changeBackName)
+
+function changeBackName(){
+	document.querySelector('#myName').innerText = 'Tousdan'
+}
